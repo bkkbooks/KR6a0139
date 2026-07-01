@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6a0139/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說四未曾有法經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T02/T02n0136.xml
+    old_id: T02n0136
+hash: sha256:f08ac8e54522bad750a765e7d9583c7079c84ab72382c75e896fa5f9abefe3b0

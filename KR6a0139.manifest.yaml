@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6a0139/v1
+canonical_location: https://kanripo.org/bkk/KR6a0139/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說四未曾有法經
+  identifiers:
+    alt_id:
+    - T02n0136
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T02/T02n0136.xml
+    old_id: T02n0136
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0139_000.yaml, hash: 'sha256:f08ac8e54522bad750a765e7d9583c7079c84ab72382c75e896fa5f9abefe3b0'}
+  - {seq: 1, filename: KR6a0139_001.yaml, hash: 'sha256:8e9e3277491013a6f43226317e3503173bdc63a9589ea63e762b2291d22204e6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0139_001.markers.yaml, hash: 'sha256:80adca5a3a6c40afec963b00e30762263d75d4317b51cdd44d4939121ca3e5e0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0139_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 813
+  label: 佛說四未曾有法經
+  type: juan
+  level: 1
+hash: sha256:5386d4847c95874d4ed82a014f123430616e735d01bbda2f30761caee128e468
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
